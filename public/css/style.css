@@ -1,0 +1,36 @@
+html {
+  background-color: white;
+}
+img {
+  height: 400px;
+  margin-left: 100px;
+}
+.escolherpalavra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+  color: white;
+  background-color: rgb(29, 126, 29);
+  border-radius: 15px;
+  margin-right: 150px;
+}
+.lado {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.coluna {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.palavra {
+  color: pink;
+  font-size: 100px;
+  margin-top: 200px;
+  margin-right: 150px;
+}
